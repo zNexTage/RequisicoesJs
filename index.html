@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>
+        Index
+    </title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="container flex-display">
+
+        <div class="menu">
+            <form method="POST" action="http://localhost:8080/login">
+                <label>
+                    Nome:
+                </label>
+                <input id="txtNome" name="nome" type="text" class="form-control" />
+                <label>
+                    Senha:
+                </label>
+                <input type="password" name="senha" class="form-control" />
+                <button class="btn btn-success form-control btnLogin">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

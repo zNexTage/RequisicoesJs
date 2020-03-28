@@ -1,0 +1,22 @@
+{
+  "name": "RequisicoesJs",
+  "version": "1.0.0",
+  "description": "Enviando dados de um form para o server com js",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "http-server": "^0.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
